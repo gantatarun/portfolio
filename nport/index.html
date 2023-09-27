@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GT profile</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0e4a0cfb43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>GANTA TARUN</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Expertises</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa-beat-fade" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>"Hi, I'm <span>ganta tarun,</span> 
+                </p>
+                <h3> a dedicated student with a passionate interest in the fields of data science and machine learning.  <br>excel in coding, particularly in data structures and algorithms using the Java programming language. Additionally, I have a basic understanding of front-end development. What sets me apart is my creative ability to innovate and develop new solutions. </h3>
+            </div>
+            <div class="welcome">
+                <p>Welcome to my portfolio!</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>
+                        I am a highly motivated and ambitious student currently pursuing my Bachelor of Technology (B.Tech) degree in Computer Science and Engineering at Vellore Institute of Technology. I possess strong application development and programming.
+                        <br>
+                        I have completed several real-time projects during my academic journey. These experiences have provided me with valuable insights into addressing real-world problems.
+                        <br>
+                        I possess a strong enthusiasm for continuous learning and am always eager to acquire new knowledge and skills.
+                        <br>
+                        Additionally, I excel in sports and have achieved notable accomplishments. I have actively participated in district-level wushu competitions and had the privilege of captaining my school's cricket team.
+                        <br>
+                        Beyond academics and sports, I have diverse interests that keep me engaged in life. I am an avid enthusiast of bike racing and trekking. Furthermore, I am deeply passionate about nature and find solace in appreciating the beauty of the natural world.                   </p>
+                        <div class="social-links" >
+                           
+                            <a href="https://www.linkedin.com/in/tarun-ganta-21887124b/" target="_blank">
+                                <img src="images/linked in.jpeg" alt="linkedin Profile">
+                            </a>
+                            <a href="https://github.com/gantatarun" target="_blank">
+                                <img src="images/github.png" alt="githubProfile">
+                            </a>
+                    
+                            <a href="https://www.instagram.com/gantatarun8/" target="_blank">
+                                <img src="images/instagram.jpeg" alt="Instagram Profile">
+                            </a>
+                            
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Expertises</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-chart-simple fa-bounce"></i>
+                    <h2>Data Science</h2>
+                    <h2>and ML</h2>
+                    <p>predicting the spaceX rocket landing using the SVM alogorithm in Ml and
+                        getting the output of accuracy of 85%</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud-showers-water fa-bounce"></i>
+                    <h2>Cloud based</h2>
+                    <p>Designed and developed an intuitive online ordering platform for
+                        Shawarma and enabling secure transactions integrated with Razorpay to
+                        streamline the online ordering process deployed in AWS EC2 cloud
+                        services.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare fa-bounce"></i>
+                    <h2>Data Analytics</h2>
+                    <p>ased on the analysis of previous Flipkart sales data for mobile phones, I have identified the most affordable phones across all categories. I conducted this analysis using Jupyter Notebook in Python and presented the results through barplot graphs.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-memory fa-bounce"></i>
+                    <h2>Aurdino</h2>
+                    <p>Designed the heart beat and spo2 in a single sensor with cheap price and
+                        added messaging alter for the primary person</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                     <h3>Mail</h3>
+                    <!--<p>@gmail.com</p> -->
+                    <a href="mailto:gantatarun8@gmail.com">gantatarun8@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-right"> 
+                <div>
+                    <i class="fa-solid fa-blender-phone"></i>
+                    <h3>Call Me</h3>
+                    <!-- <p>+91 8919788986</p> -->
+                    <a href="tel:+918919788986">+91 8919788986</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©CopyRight  <span>ganata tarun</span> All Rights Reserved</p>
+        </div>
+    </div>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
